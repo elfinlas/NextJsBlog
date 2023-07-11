@@ -27,7 +27,3 @@ export default function Home() {
         </>
     );
 }
-
-// https://programming119.tistory.com/267
-//https://programming119.tistory.com/273
-//https://jha-memo.tistory.com/95
