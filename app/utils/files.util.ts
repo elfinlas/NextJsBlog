@@ -3,7 +3,8 @@ import fs from "fs";
 import matter from "gray-matter";
 import {MarkdownData} from "../types/markdown.data.type";
 
-const markdownFilePath = path.join(process.cwd(), "/public/__posts");
+const root = process.env.PWD ?? "";
+const markdownFilePath = path.join(process.cwd(), "/__posts");
 
 /**
  * 마크다운 경로에 파일의 갯수를 가져오는 함수
